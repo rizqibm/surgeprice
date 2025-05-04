@@ -49,3 +49,4 @@ if submitted:
         st.success(f"Predicted Surge Pricing Type: **{surge_map.get(pred[0])}**")
     except Exception as e:
         st.error(f"Error during prediction: {e}")
+
